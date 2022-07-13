@@ -17,6 +17,9 @@ public class coin {
         }
         
         System.out.println("Heads:"+ omote +",Tails:"+ ura);
-        
+        if(omote>ura){
+            System.out.println("You won");
+        }
+        else System.out.println("You lost");
         }  
     }
