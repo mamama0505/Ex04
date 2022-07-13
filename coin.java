@@ -1,6 +1,11 @@
+import java.util.Scanner;
 
 public class coin {
  public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Who are you?");
+        String name = sc.next();
+        System.out.println("Heloo,"+name+"!");
         int result = 0;
         int omote = 0;
         int ura = 0;
@@ -15,7 +20,6 @@ public class coin {
         System.out.println("Round"+i+": Tails");
         }
         }
-        
         System.out.println("Heads:"+ omote +",Tails:"+ ura);
         
         }  
